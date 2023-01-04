@@ -1,0 +1,96 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px; line-height: 26px; color: #2f2f2f;}
+
+/* font-family: 'Milligram Trial', sans-serif; */
+
+/* top */
+#top{width: 100%; height: 190px; margin-bottom: 10px;}
+.top_inner{width: 1320px; margin: 0 auto; text-align: center; position: relative; height: 190px;}
+.logo{display: block; width: 124px; height: 69px; position: absolute; left: 50%; top: 16%; margin-left: -62px;}
+.nav{position: absolute; bottom: 5px;}
+.nav li{float: left;}
+.nav li a{display: block; margin-right: 335px; margin-top: 20px; font-weight: bold; font-size: 20px;}
+.nav li a:hover{color: #cf800e;}
+.nav li:last-child a{margin-right: 0;}
+
+
+
+
+/* con1 S */
+#con1{width: 1320px; margin: 100px auto; height: 500px;}
+.con_left{float: left; width: 520px;}
+.con_left h1{line-height: 80px; font-size: 48px;}
+.con_left p{line-height: 30px;}
+.click{display: inline-block; font-size: 20px; border: 1px solid #000; border-radius: 30px; margin-top: 142px; color: #2f2f2f; padding: 10px 25px;}
+.click:hover{color: #cf800e; border: 1px solid #cf800e;}
+.brand{color: #cf800e;}
+.con_right{float: right; width: 800px; height: 500px;}
+/* con1 E */
+
+h2{font-size: 30px; margin-bottom: 70px;}
+/* 객실 S */
+#con2{width: 1320px; margin: 100px auto; text-align: center; height: 618px;}
+.rooms{float: left;}
+.rooms img{display: block;}
+.rooms li{float: left; position: relative;}
+.rooms li a{display: block;}
+.rooms li:nth-child(2){margin: 0 120px;}
+
+.rooms li:hover .roomspage{transform: scale(1,1); background: rgba(0,0,0,0.5); color: rgba(255,255,255,1); opacity: 1;}
+
+.roomspage{position: absolute; top: 0; left: 0; width: 360px; height: 522px; color: rgba(255,255,255,0); transition: all 1s; text-align: center; opacity: 0;}
+.roomstext{margin-top: 83px; line-height: 48px; font-size: 20px;}
+.roomsname{margin-top: 160px; font-size: 24px;}
+.roomsview{margin-top: 19px; font-size: 20px; border: 1px solid #fff; display: inline-block; padding: 7px 10px;}
+
+
+.rooms li:nth-child(3) a div .roomsname{margin-top: 106px;}
+/* 객실 E */
+
+/* 부대시설 S */
+.speimg{float: left; width: 806px; float: left; height: 562px;}
+.speimg img{ display: block;}
+.spetext{float: right; text-align: left; width: 514px; box-sizing: border-box; padding: 30px; margin-top: 142px; background-color: #d9d0cb; height: 420px; position: relative;}
+
+.spetext p{margin-top: 54px;}
+.spepage{display: inline-block; margin-top: 54px; border: 1px solid #444; padding: 10px 25px; border-radius: 30px; color: #2f2f2f; position: absolute; bottom: 10%;}
+.spepage:hover{color: #cf800e; border: 1px solid #cf800e;}
+
+/*one*/
+.one{width: 100%; 
+  /* margin: 100px auto;  */
+  /* text-align: center; */
+   height: 760px;}
+
+.two{width:1320px;
+   margin: 100px auto;
+   text-align: center; 
+   height: 662px;}
+
+
+/* 주변관광지 */
+
+#con4{width: 1320px; margin: 100px auto 150px; text-align: center; height: 816px;}
+.travel{width: 100%;}
+.travel li{width: 50%; height: 50%; float: left; position: relative; overflow: hidden;}
+.travel li img{display: block;}
+.tra1{background: rgba(0,0,0,0.7); position: absolute; left: 0; top: 82%; color: #fff; width: 100%; height: 100%; transition: all 1s;}
+.tra1 h2{font-weight: bold; width: 100%; font-size: 30px; padding: 21px 0;}
+.travel li:hover .tra1{transform: translateY(-82%);}
+
+
+/* top버튼 */
+.top-link{position:fixed; bottom:50px; right:50px; display:none; background-color: #cf800e; padding: 17px; border-radius: 50%; font-weight: bold; color: #fff;}
+.top-link:hover{background-color: #fff; color: #cf800e;}
+
+/* footer */
+#footer{width: 100%; height: 300px; background-color: #333;}
+.footer-inner{width: 1320px; margin: 0 auto; height: 300px; position: relative;}
+.footer-nav{float: left;}
+.footer-nav li{float: left; margin-bottom: 112px;}
+.footer-nav li a{display: block; color: #fff; font-weight: bold; font-size: 18px; margin: 15px 60px 0 0;}
+.footer-nav li a:hover{text-decoration: underline;}
+.footer-inner p{clear: both; color: #fff; font-size: 18px;}
+.footer-logo{display: block; position: absolute; right: 0; top: 188px; width: 124px; height: 69px;}
